@@ -9,7 +9,10 @@
     },
     .dependencies = .{
         .libusb = .{ .path = "vendor/libusb" },
-        .microzig = .{ .path = "../microzig" }, // TODO: url
+        .microzig = .{
+            .url = "git+https://github.com/ZigEmbeddedGroup/microzig.git#0.15.0",
+            .hash = "microzig-0.15.0-D20YSUedyQCadccU2P5U7LXRVMgZI5T0BxUcwTq1DfnR",
+        },
     },
     .fingerprint = 0xa0717333ace084a,
 }
